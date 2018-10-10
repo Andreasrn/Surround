@@ -2,16 +2,15 @@
 
 This is a simple plugin which surrounds all selected text pieces by a given HTML tag.
 
-## Getting Started
+## Install
 
-### Using Git
-Go to your Sublime Text 3 ```Packages``` directory and clone this repository using this command:
-```
-git clone https://github.com/Andreasrn/Surround.git
-```
+### Package Control
 
-### Manually
-Download these files and place them in your Sublime Text 3 Packages directory.
+If you haven't installed Package Control yet, visit [Official installation guide](https://packagecontrol.io/installation).
+
+Once **Package Control** is installed, you have to press ```Ctrl+shift+p``` and select the **Package Control: Install Package** option.
+
+A list of plugins will show up. Type **Surround** and select it from the list. It will automatically install and keep updated. You are done!
 
 ## Usage
 

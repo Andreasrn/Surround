@@ -10,7 +10,7 @@ class PromptSurrounderCommand(sublime_plugin.WindowCommand):
             if self.window.active_view():
                 self.window.active_view().run_command("surround_by", {"tag": tag})
         except ValueError:
-            pass
+            print('hi')
 
 
 class SurroundByCommand(sublime_plugin.TextCommand):
